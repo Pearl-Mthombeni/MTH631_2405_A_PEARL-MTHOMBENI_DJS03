@@ -6,6 +6,9 @@ The "Book Connect" project provides an opportunity for students to refine a full
 
 ![alt text](image.png)
 
+
+BRIEF PRESENTATION 
+
 When refactoring the code, my goal was to improve readability, maintainability and reusability. I introduced a Book class to manage book-related data and behaviour, while repetetive tasks like rendering books wrer handled by reusable functions with parameters. This reduced redundancy andmade the code cleaner
 
 Abstraction helped separate concerns making modifications easier without breaking other parts of the code. For exampke, updating how books are displayed only requires changes within the Book class. This also makes adding new features like sorting, more straightforward.
