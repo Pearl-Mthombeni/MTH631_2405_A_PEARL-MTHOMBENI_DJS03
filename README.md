@@ -6,6 +6,14 @@ The "Book Connect" project provides an opportunity for students to refine a full
 
 ![alt text](image.png)
 
+When refactoring the code, my goal was to improve readability, maintainability and reusability. I introduced a Book class to manage book-related data and behaviour, while repetetive tasks like rendering books wrer handled by reusable functions with parameters. This reduced redundancy andmade the code cleaner
+
+Abstraction helped separate concerns making modifications easier without breaking other parts of the code. For exampke, updating how books are displayed only requires changes within the Book class. This also makes adding new features like sorting, more straightforward.
+
+One challenge I faced was deciding between using objects or functions for certain logic. I solved this by ensuring objects sorted data and behaviour, while functions handled specific tasks. Another challenge was making functions reusable, which I addressed by using parameters to keep them adaptable.
+
+This process deepened my understanding of JavaScript, particularly encapsulation and abstraction. It reinforced the importance of writing clean, modular code that is both scalable and easy to maintain.
+
 #### Goals
 
 - **Refactor Existing Code**: Analyse and refactor the given JavaScript and HTML code to improve its structure using objects and functions.
